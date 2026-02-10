@@ -1,1 +1,30 @@
 Homelab networking labs: TCP/IP, VLANs, firewall rules, DNS, and connectivity testing.
+# Homelab Networking
+
+This repository documents my networking-focused homelab.  
+Week 1 is about building a basic lab and proving I understand how packets move:
+- Host-only / internal network
+- NAT to the internet
+- Basic connectivity tests (ping, traceroute, DNS lookups)
+
+## Goals
+
+- Practice TCP/IP fundamentals in a realistic environment  
+- Design and document a small network topology  
+- Use basic troubleshooting tools: `ping`, `tracert` / `traceroute`, `nslookup`, `dig`  
+- Build a portfolio-quality record of what I actually did
+
+## Lab Environment (Week 1)
+
+- Hypervisor: VirtualBox / VMware (edit this)
+- VMs:
+  - `gw-router` (Linux or pfSense, acts as gateway/NAT)
+  - `client-1` (Linux)
+  - `client-2` (Windows)
+
+## Repo Structure
+
+```text
+diagrams/               # Network diagrams for the lab
+docs/                   # Step-by-step labs and notes
+notes/                  # Rough ideas and TODOs
